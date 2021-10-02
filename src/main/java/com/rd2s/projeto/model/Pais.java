@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 @Entity
 public class Pais extends AbstractRegion {
 
+    @Column(name = "INDICE_DES_HUM")
     private Integer idh;
-
 
 }
